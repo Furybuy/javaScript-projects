@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+#color-palette {
+    text-align: center;
+}
+.color {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  width: 50px;
+  border: 1px solid black;
+}
+#square1 {
+    background-color: black ;
+}
+#square2 {
+    background-color: red ;
+}
+#square3 {
+    background-color: green ;
+}
+#square4 {
+    background-color: blue ;
+}
+#button-random-color {
+    margin-left: 100px ;
+}
+.pixel {
+   display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+#pixel-board {
+    width: fit-content;
+  margin: auto;
+  justify-content: center;
+}
